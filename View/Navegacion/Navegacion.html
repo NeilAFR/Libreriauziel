@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Navegacion/styles.css">
+  <title>Barra de Navegación</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="navbar-toggle" onclick="toggleNavbar()">
+          <img src="../../images/flecha.png" alt="Flecha">
+        </div>
+  <div class="navbar-links">
+    <a href="../Principal/Bienvenido.php" class="hidden">Inicio</a>
+    <a href="../Almacen/Almacen.php" class="hidden">Almacen</a>
+    <a href="../Ventas/Ventas.php" class="hidden">Ventas</a>
+    <a href="../Login/login.php" class="hidden">Cerrar Sesión</a>
+  </div>
+</div>
+<div class="overlay"></div>
+<div class="content">
+  <!-- Aquí va el contenido de tu página -->
+</div>
+
+<script src="../Navegacion/script.js"></script>
+</body>
+</html>
